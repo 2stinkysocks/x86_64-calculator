@@ -1,0 +1,3 @@
+#!/bin/bash
+yasm -g dwarf2 -f elf64 calculator.asm -l calculator.lst
+ld -g -o calculator calculator.o
